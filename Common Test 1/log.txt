@@ -1,0 +1,74 @@
+7.5s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.5s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.5s 3 0.00s - to python to disable frozen modules.
+7.5s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+8.1s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.1s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.1s 7 0.00s - to python to disable frozen modules.
+8.1s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+22.0s 9 Using device: cuda
+22.7s 10 Loaded 30000 training images
+22.7s 11 Loaded 7500 validation images
+188.6s 12 Epoch [1/50] | Train Loss: 1.1128 | Train Acc: 0.3434 | Val Loss: 1.1152 | Val Acc: 0.3357
+252.1s 13 Epoch [2/50] | Train Loss: 1.1065 | Train Acc: 0.3408 | Val Loss: 1.1005 | Val Acc: 0.3441
+314.1s 14 Epoch [3/50] | Train Loss: 1.1037 | Train Acc: 0.3443 | Val Loss: 1.1046 | Val Acc: 0.3497
+376.6s 15 Epoch [4/50] | Train Loss: 1.0979 | Train Acc: 0.3618 | Val Loss: 2.2199 | Val Acc: 0.3333
+439.0s 16 Epoch [5/50] | Train Loss: 1.0865 | Train Acc: 0.3821 | Val Loss: 1.3363 | Val Acc: 0.3333
+501.5s 17 Epoch [6/50] | Train Loss: 1.0619 | Train Acc: 0.4210 | Val Loss: 1.2787 | Val Acc: 0.3415
+564.5s 18 Epoch [7/50] | Train Loss: 1.0115 | Train Acc: 0.4763 | Val Loss: 1.1380 | Val Acc: 0.4168
+628.5s 19 Epoch [8/50] | Train Loss: 0.9645 | Train Acc: 0.5112 | Val Loss: 1.1726 | Val Acc: 0.4173
+691.6s 20 Epoch [9/50] | Train Loss: 0.9227 | Train Acc: 0.5453 | Val Loss: 1.0460 | Val Acc: 0.4788
+755.0s 21 Epoch [10/50] | Train Loss: 0.8970 | Train Acc: 0.5611 | Val Loss: 1.0121 | Val Acc: 0.4801
+817.7s 22 Epoch [11/50] | Train Loss: 0.8673 | Train Acc: 0.5834 | Val Loss: 1.2202 | Val Acc: 0.4300
+880.4s 23 Epoch [12/50] | Train Loss: 0.8317 | Train Acc: 0.6058 | Val Loss: 0.9542 | Val Acc: 0.5119
+942.7s 24 Epoch [13/50] | Train Loss: 0.7950 | Train Acc: 0.6254 | Val Loss: 0.8174 | Val Acc: 0.6071
+1005.1s 25 Epoch [14/50] | Train Loss: 0.7599 | Train Acc: 0.6453 | Val Loss: 0.7123 | Val Acc: 0.6741
+1067.3s 26 Epoch [15/50] | Train Loss: 0.7253 | Train Acc: 0.6663 | Val Loss: 0.7019 | Val Acc: 0.6724
+1129.6s 27 Epoch [16/50] | Train Loss: 0.6972 | Train Acc: 0.6797 | Val Loss: 0.6687 | Val Acc: 0.6940
+1191.9s 28 Epoch [17/50] | Train Loss: 0.6679 | Train Acc: 0.6940 | Val Loss: 0.6655 | Val Acc: 0.6923
+1254.6s 29 Epoch [18/50] | Train Loss: 0.6418 | Train Acc: 0.7130 | Val Loss: 0.6113 | Val Acc: 0.7209
+1317.7s 30 Epoch [19/50] | Train Loss: 0.6101 | Train Acc: 0.7313 | Val Loss: 0.6176 | Val Acc: 0.7196
+1380.8s 31 Epoch [20/50] | Train Loss: 0.5855 | Train Acc: 0.7409 | Val Loss: 0.6931 | Val Acc: 0.6941
+1446.6s 32 Epoch [21/50] | Train Loss: 0.5483 | Train Acc: 0.7636 | Val Loss: 0.6009 | Val Acc: 0.7420
+1516.8s 33 Epoch [22/50] | Train Loss: 0.5161 | Train Acc: 0.7798 | Val Loss: 0.4601 | Val Acc: 0.8084
+1580.8s 34 Epoch [23/50] | Train Loss: 0.4828 | Train Acc: 0.7942 | Val Loss: 0.4377 | Val Acc: 0.8192
+1644.6s 35 Epoch [24/50] | Train Loss: 0.4518 | Train Acc: 0.8135 | Val Loss: 0.4535 | Val Acc: 0.8193
+1707.3s 36 Epoch [25/50] | Train Loss: 0.4299 | Train Acc: 0.8236 | Val Loss: 0.4206 | Val Acc: 0.8249
+1770.4s 37 Epoch [26/50] | Train Loss: 0.4018 | Train Acc: 0.8347 | Val Loss: 0.4758 | Val Acc: 0.8263
+1832.8s 38 Epoch [27/50] | Train Loss: 0.3921 | Train Acc: 0.8409 | Val Loss: 0.3106 | Val Acc: 0.8804
+1896.5s 39 Epoch [28/50] | Train Loss: 0.3692 | Train Acc: 0.8543 | Val Loss: 0.3310 | Val Acc: 0.8737
+1960.9s 40 Epoch [29/50] | Train Loss: 0.3525 | Train Acc: 0.8571 | Val Loss: 0.3253 | Val Acc: 0.8736
+2023.0s 41 Epoch [30/50] | Train Loss: 0.3421 | Train Acc: 0.8647 | Val Loss: 0.3184 | Val Acc: 0.8751
+2086.2s 42 Epoch [31/50] | Train Loss: 0.3334 | Train Acc: 0.8685 | Val Loss: 0.2940 | Val Acc: 0.8877
+2148.3s 43 Epoch [32/50] | Train Loss: 0.3221 | Train Acc: 0.8748 | Val Loss: 0.3105 | Val Acc: 0.8789
+2210.6s 44 Epoch [33/50] | Train Loss: 0.3148 | Train Acc: 0.8786 | Val Loss: 0.2920 | Val Acc: 0.8852
+2272.9s 45 Epoch [34/50] | Train Loss: 0.3081 | Train Acc: 0.8798 | Val Loss: 0.2855 | Val Acc: 0.8911
+2335.2s 46 Epoch [35/50] | Train Loss: 0.2959 | Train Acc: 0.8872 | Val Loss: 0.3047 | Val Acc: 0.8845
+2397.1s 47 Epoch [36/50] | Train Loss: 0.2918 | Train Acc: 0.8882 | Val Loss: 0.2804 | Val Acc: 0.8900
+2459.3s 48 Epoch [37/50] | Train Loss: 0.2847 | Train Acc: 0.8904 | Val Loss: 0.4595 | Val Acc: 0.8044
+2521.3s 49 Epoch [38/50] | Train Loss: 0.2804 | Train Acc: 0.8917 | Val Loss: 0.3100 | Val Acc: 0.8773
+2583.6s 50 Epoch [39/50] | Train Loss: 0.2732 | Train Acc: 0.8953 | Val Loss: 0.2647 | Val Acc: 0.8976
+2645.8s 51 Epoch [40/50] | Train Loss: 0.2656 | Train Acc: 0.8992 | Val Loss: 0.2377 | Val Acc: 0.9101
+2707.8s 52 Epoch [41/50] | Train Loss: 0.2682 | Train Acc: 0.8980 | Val Loss: 0.2819 | Val Acc: 0.8945
+2769.9s 53 Epoch [42/50] | Train Loss: 0.2563 | Train Acc: 0.9027 | Val Loss: 0.3149 | Val Acc: 0.8883
+2832.2s 54 Epoch [43/50] | Train Loss: 0.2549 | Train Acc: 0.9033 | Val Loss: 0.2875 | Val Acc: 0.8936
+2894.5s 55 Epoch [44/50] | Train Loss: 0.2525 | Train Acc: 0.9033 | Val Loss: 0.2532 | Val Acc: 0.9072
+2956.5s 56 Epoch [45/50] | Train Loss: 0.2447 | Train Acc: 0.9076 | Val Loss: 0.2581 | Val Acc: 0.8979
+3018.8s 57 Epoch [46/50] | Train Loss: 0.2386 | Train Acc: 0.9113 | Val Loss: 0.2352 | Val Acc: 0.9131
+3080.9s 58 Epoch [47/50] | Train Loss: 0.2373 | Train Acc: 0.9101 | Val Loss: 0.2488 | Val Acc: 0.9048
+3142.9s 59 Epoch [48/50] | Train Loss: 0.2377 | Train Acc: 0.9100 | Val Loss: 0.2719 | Val Acc: 0.8989
+3205.0s 60 Epoch [49/50] | Train Loss: 0.2319 | Train Acc: 0.9112 | Val Loss: 0.2100 | Val Acc: 0.9237
+3267.2s 61 Epoch [50/50] | Train Loss: 0.2288 | Train Acc: 0.9132 | Val Loss: 0.2160 | Val Acc: 0.9199
+3267.2s 62 Training completed
+3267.2s 63 Best model saved as best_lensing_model.pth
+3272.4s 64 Macro AUC Score: 0.9850
+3278.2s 65 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+3278.2s 66 cells[i][c] = re.sub('\\\\\|', '|', cell)
+3278.4s 67 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+3278.4s 68 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+3279.0s 69 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+3279.4s 70 [NbConvertApp] Writing 79552 bytes to __notebook__.ipynb
+3281.9s 71 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+3282.8s 72 [NbConvertApp] Support files will be in __results___files/
+3282.8s 73 [NbConvertApp] Making directory __results___files
+3282.8s 74 [NbConvertApp] Writing 317114 bytes to __results__.html

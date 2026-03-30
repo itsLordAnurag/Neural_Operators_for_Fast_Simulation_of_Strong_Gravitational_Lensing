@@ -1,0 +1,75 @@
+11.7s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+11.7s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+11.7s 3 0.00s - to python to disable frozen modules.
+11.7s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+12.4s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+12.4s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+12.4s 7 0.00s - to python to disable frozen modules.
+12.4s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+32.6s 9 [Device] cuda
+33.4s 10 [Dataset] Train: 30000 | Val: 7500
+33.8s 11 [Model] FNO2d | Params: 2,233,539
+33.8s 12 [Config] img_size=150, modes=16, width=32, depth=4, log1p_scale=10.0
+278.4s 13 Epoch 001/50 | Train loss=1.1028 acc=0.3332 | Val loss=1.0957 acc=0.3397 *best*
+437.1s 14 Epoch 002/50 | Train loss=1.0769 acc=0.3966 | Val loss=1.0284 acc=0.4560 *best*
+595.5s 15 Epoch 003/50 | Train loss=1.0051 acc=0.4716 | Val loss=0.9679 acc=0.5007 *best*
+753.9s 16 Epoch 004/50 | Train loss=0.9559 acc=0.5079 | Val loss=0.9021 acc=0.5416 *best*
+912.6s 17 Epoch 005/50 | Train loss=0.9044 acc=0.5410 | Val loss=0.8904 acc=0.5425 *best*
+1070.9s 18 Epoch 006/50 | Train loss=0.8692 acc=0.5645 | Val loss=0.8471 acc=0.5880 *best*
+1229.4s 19 Epoch 007/50 | Train loss=0.8289 acc=0.5941 | Val loss=0.7916 acc=0.6204 *best*
+1387.4s 20 Epoch 008/50 | Train loss=0.7910 acc=0.6233 | Val loss=0.7927 acc=0.6295 *best*
+1545.8s 21 Epoch 009/50 | Train loss=0.7553 acc=0.6494 | Val loss=0.7406 acc=0.6579 *best*
+1704.2s 22 Epoch 010/50 | Train loss=0.7215 acc=0.6704 | Val loss=0.7668 acc=0.6472
+1862.6s 23 Epoch 011/50 | Train loss=0.6806 acc=0.6974 | Val loss=0.6532 acc=0.7207 *best*
+2020.9s 24 Epoch 012/50 | Train loss=0.6506 acc=0.7178 | Val loss=0.6772 acc=0.6889
+2179.4s 25 Epoch 013/50 | Train loss=0.6184 acc=0.7341 | Val loss=0.5915 acc=0.7495 *best*
+2337.9s 26 Epoch 014/50 | Train loss=0.5975 acc=0.7448 | Val loss=0.5467 acc=0.7672 *best*
+2496.3s 27 Epoch 015/50 | Train loss=0.5713 acc=0.7607 | Val loss=0.6089 acc=0.7389
+2654.7s 28 Epoch 016/50 | Train loss=0.5487 acc=0.7708 | Val loss=0.5134 acc=0.7875 *best*
+2813.1s 29 Epoch 017/50 | Train loss=0.5349 acc=0.7807 | Val loss=0.4944 acc=0.7989 *best*
+2971.5s 30 Epoch 018/50 | Train loss=0.5165 acc=0.7891 | Val loss=0.5802 acc=0.7612
+3129.6s 31 Epoch 019/50 | Train loss=0.5024 acc=0.7936 | Val loss=0.4933 acc=0.7911
+3287.7s 32 Epoch 020/50 | Train loss=0.4846 acc=0.8041 | Val loss=0.4594 acc=0.8131 *best*
+3445.6s 33 Epoch 021/50 | Train loss=0.4693 acc=0.8084 | Val loss=0.4364 acc=0.8277 *best*
+3603.7s 34 Epoch 022/50 | Train loss=0.4518 acc=0.8177 | Val loss=0.4814 acc=0.8044
+3761.6s 35 Epoch 023/50 | Train loss=0.4455 acc=0.8211 | Val loss=0.4365 acc=0.8207
+3919.5s 36 Epoch 024/50 | Train loss=0.4312 acc=0.8268 | Val loss=0.4071 acc=0.8347 *best*
+4077.5s 37 Epoch 025/50 | Train loss=0.4188 acc=0.8324 | Val loss=0.4743 acc=0.8029
+4235.7s 38 Epoch 026/50 | Train loss=0.4058 acc=0.8374 | Val loss=0.3854 acc=0.8472 *best*
+4393.8s 39 Epoch 027/50 | Train loss=0.4000 acc=0.8416 | Val loss=0.3852 acc=0.8489 *best*
+4552.1s 40 Epoch 028/50 | Train loss=0.3899 acc=0.8468 | Val loss=0.3664 acc=0.8525 *best*
+4710.6s 41 Epoch 029/50 | Train loss=0.3814 acc=0.8491 | Val loss=0.3519 acc=0.8601 *best*
+4868.9s 42 Epoch 030/50 | Train loss=0.3660 acc=0.8547 | Val loss=0.3715 acc=0.8532
+5027.2s 43 Epoch 031/50 | Train loss=0.3593 acc=0.8586 | Val loss=0.3586 acc=0.8616 *best*
+5185.5s 44 Epoch 032/50 | Train loss=0.3487 acc=0.8632 | Val loss=0.3454 acc=0.8671 *best*
+5343.8s 45 Epoch 033/50 | Train loss=0.3428 acc=0.8658 | Val loss=0.3628 acc=0.8565
+5502.1s 46 Epoch 034/50 | Train loss=0.3370 acc=0.8692 | Val loss=0.3240 acc=0.8716 *best*
+5660.5s 47 Epoch 035/50 | Train loss=0.3260 acc=0.8730 | Val loss=0.3247 acc=0.8735 *best*
+5818.3s 48 Epoch 036/50 | Train loss=0.3206 acc=0.8777 | Val loss=0.3428 acc=0.8625
+5976.1s 49 Epoch 037/50 | Train loss=0.3174 acc=0.8775 | Val loss=0.3218 acc=0.8769 *best*
+6133.8s 50 Epoch 038/50 | Train loss=0.3050 acc=0.8823 | Val loss=0.3086 acc=0.8819 *best*
+6291.5s 51 Epoch 039/50 | Train loss=0.3020 acc=0.8854 | Val loss=0.3050 acc=0.8840 *best*
+6449.2s 52 Epoch 040/50 | Train loss=0.2969 acc=0.8862 | Val loss=0.3209 acc=0.8735
+6607.1s 53 Epoch 041/50 | Train loss=0.2956 acc=0.8867 | Val loss=0.3004 acc=0.8848 *best*
+6764.9s 54 Epoch 042/50 | Train loss=0.2902 acc=0.8888 | Val loss=0.3079 acc=0.8825
+6922.8s 55 Epoch 043/50 | Train loss=0.2857 acc=0.8907 | Val loss=0.2930 acc=0.8893 *best*
+7081.0s 56 Epoch 044/50 | Train loss=0.2839 acc=0.8911 | Val loss=0.2953 acc=0.8868
+7239.3s 57 Epoch 045/50 | Train loss=0.2856 acc=0.8913 | Val loss=0.2910 acc=0.8903 *best*
+7397.6s 58 Epoch 046/50 | Train loss=0.2771 acc=0.8946 | Val loss=0.2904 acc=0.8912 *best*
+7556.0s 59 Epoch 047/50 | Train loss=0.2767 acc=0.8950 | Val loss=0.2871 acc=0.8917 *best*
+7714.4s 60 Epoch 048/50 | Train loss=0.2759 acc=0.8961 | Val loss=0.2868 acc=0.8921 *best*
+7872.4s 61 Epoch 049/50 | Train loss=0.2722 acc=0.8974 | Val loss=0.2865 acc=0.8924 *best*
+8030.2s 62 Epoch 050/50 | Train loss=0.2698 acc=0.8971 | Val loss=0.2864 acc=0.8916
+8042.3s 63 
+8042.3s 64 [AUC] No substructure: 0.9849 | Subhalo: 0.9617 | Vortex: 0.9789
+8042.3s 65 [AUC] Macro: 0.9752
+8042.3s 66 
+8042.3s 67 [Done] Best Val Acc: 0.8924
+8047.8s 68 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+8047.8s 69 cells[i][c] = re.sub('\\\\\|', '|', cell)
+8048.0s 70 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+8048.0s 71 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+8048.7s 72 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+8049.0s 73 [NbConvertApp] Writing 58552 bytes to __notebook__.ipynb
+8051.3s 74 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+8052.2s 75 [NbConvertApp] Writing 379691 bytes to __results__.html
