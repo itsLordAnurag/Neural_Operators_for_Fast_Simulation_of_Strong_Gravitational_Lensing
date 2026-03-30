@@ -27,8 +27,13 @@ The baseline model is built using PyTorch. While the original dataset utilizes m
 
 This task replaces the standard convolutional feature extractor with a **Fourier Neural Operator (FNO)** architecture. 
 1. **Model Architecture:** The model utilizes neural operator layers that operate in continuous function space via spectral convolutions (using Fast Fourier Transforms), truncating high-frequency modes to focus on global structural signals.
-2. **Strategy & Comparison:** The implementation explores how FNOs naturally capture global spatial features and continuous macro-structures of gravitational lenses, in contrast to the localized, discrete pixel patches processed by standard CNNs. 
-3. **Evaluation:** The FNO model is evaluated on the exact same strong lensing validation subset and directly compared against the CNN baseline from Common Test I.
+   <h2>FNO Architecture</h2>
+
+    <p align="center">
+      <img src="Specific_Test%20IV%20_Neural_Operators/fno_architecture.jpg" width="700"/>
+    </p>
+3. **Strategy & Comparison:** The implementation explores how FNOs naturally capture global spatial features and continuous macro-structures of gravitational lenses, in contrast to the localized, discrete pixel patches processed by standard CNNs. 
+4. **Evaluation:** The FNO model is evaluated on the exact same strong lensing validation subset and directly compared against the CNN baseline from Common Test I.
 * **Evaluation Metrics:** ROC curve, AUC score, and a comparative analysis of both approaches.
 
 ## Links
